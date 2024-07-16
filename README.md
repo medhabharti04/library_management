@@ -1,7 +1,7 @@
 # library_management
 Developed a Library Management System utilizing Binary Search Trees (BST) for efficient book and patron management, enabling fast search, insertion, and deletion operations. Implemented algorithms for book lending, returns, and detailed reporting, optimizing system performance and scalability.
 
-COEP Student Library Management System
+<strong> COEP Student Library Management System </strong>
 
 Overview:
 The Student Library Management System is a C-based command-line application designed to manage the operations of a library. It provides functionalities for book management (issue and return), student record keeping, and genre-based book display. This project aims to showcase the use of Binary Search Trees (BST) and linked lists to manage books and student records efficiently.
@@ -55,3 +55,12 @@ main_menu: Displays the main menu and handles user choices.
 Data Structures
 Binary Search Tree (BST): Used to store and manage book records. It allows efficient book insertion, deletion, and search operations.
 Linked List: Used to manage student records. It allows dynamic addition and removal of student records as books are borrowed or returned.
+
+Benefits of Using BST and Linked List:
+1. Binary Search Tree (BST)
+Efficient Search Operations: Searching for a book by ID is efficient with a time complexity of O(log n) on average.
+Sorted Order: In-order traversal of the BST provides books in ascending order of their IDs.
+Dynamic Structure: BST allows dynamic growth as books are added or removed.
+2. Linked List
+Dynamic Size: Linked lists allow dynamic memory allocation for storing student records.
+Ease of Insertion/Deletion: Adding or removing records (students) is straightforward without the need for resizing.
