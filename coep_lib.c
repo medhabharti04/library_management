@@ -76,7 +76,7 @@ void greetings() {
     printf("\t\t\t     *                                      *\n");
     printf("\t\t\t     ****************************************\n");
     printf("\n\n\t\t\t             Press Enter to continue...");
-    getchar();  // Wait for Enter key
+    getchar();  
 }
 
 void main_menu() {
@@ -113,8 +113,8 @@ void main_menu() {
             default:
                 printf("\n\t\t\t\t      ...Invalid Option!...\n");
                 printf("\n\t\t\t\t      Press Enter to try again: ");
-                getchar();  // Consume the newline character
-                getchar();  // Wait for Enter key
+                getchar(); 
+                getchar();
                 break;
         }
     } while (choice != 5);
@@ -208,7 +208,6 @@ void displayGenreIntroduction(char genre[]) {
 void genreBasedDisplay() {
     char genre[30];
 
-    // Clear the screen (for Unix-based systems; use "cls" for Windows)
     system("clear");
 
     printf("\n\t\t\t\t*************************************\n");
@@ -279,8 +278,8 @@ void genreBasedDisplay() {
     }
 
     printf("\n\t\t\t\tPress Enter to go back to the main menu...");
-    getchar();  // Wait for Enter key
-    getchar();  // Consume the newline character
+    getchar(); 
+    getchar();  
 }
 
 void inOrderDisplayByGenre(struct book* root, char genre[], int* hasBooks) {
@@ -301,8 +300,6 @@ void inOrderDisplayByGenre(struct book* root, char genre[], int* hasBooks) {
 void bookIssue() {
     int id;
     struct book* book;
-
-    // Clear the screen (for Unix-based systems; use "cls" for Windows)
     system("clear");
 
     // Welcome message for issuing a book
@@ -374,8 +371,8 @@ void bookIssue() {
 
     // Prompt user to return to the main menu
     printf("\n\t\t\t\tPress Enter to go back to the main menu...");
-    getchar();  // Wait for Enter key
-    getchar();  // Consume the newline character
+    getchar(); 
+    getchar(); 
 }
 
 void bookReturn() {
@@ -384,7 +381,6 @@ void bookReturn() {
     struct student* curr = start;
     struct book* bookToReturn;
 
-    // Clear the screen (for Unix-based systems; use "cls" for Windows)
     system("clear");
 
     // Welcome message for returning a book
@@ -449,15 +445,14 @@ void bookReturn() {
 
     // Prompt user to return to the main menu
     printf("\n\t\t\t\tPress Enter to go back to the main menu...");
-    getchar();  // Wait for Enter key
-    getchar();  // Consume the newline character
+    getchar();
+    getchar();  
 }
 
 void displayStudents() {
     // Display student details
     struct student* ptr = start;
 
-    // Clear the screen (for Unix-based systems; use "cls" for Windows)
     system("clear");
 
     printf("\n\t\t\t\t*******************************\n");
@@ -477,8 +472,8 @@ void displayStudents() {
     }
 
     printf("\n\t\t\t\tPress Enter to go back to the main menu...");
-    getchar();  // Wait for Enter key
-    getchar();  // Consume the newline character
+    getchar(); 
+    getchar();  
 }
 
 
