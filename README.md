@@ -37,6 +37,7 @@ The project consists of the following components:
 
 <strong>Source Code</strong>
 library_management_system.c: The main source file containing the entire implementation of the Student Library Management System.
+<br>
 <strong>Functions</strong>
 createNode: Creates a new book node with provided details.
 insertBook: Inserts a new book into the BST based on the book ID.
@@ -56,10 +57,13 @@ Binary Search Tree (BST): Used to store and manage book records. It allows effic
 Linked List: Used to manage student records. It allows dynamic addition and removal of student records as books are borrowed or returned.
 
 <strong>Benefits of Using BST and Linked List:</strong>
+<br>
 <strong>1. Binary Search Tree (BST)</strong>
+<br>
 Efficient Search Operations: Searching for a book by ID is efficient with a time complexity of O(log n) on average.
 Sorted Order: In-order traversal of the BST provides books in ascending order of their IDs.
 Dynamic Structure: BST allows dynamic growth as books are added or removed.
+<br>
 <strong>2. Linked List</strong>
 Dynamic Size: Linked lists allow dynamic memory allocation for storing student records.
 Ease of Insertion/Deletion: Adding or removing records (students) is straightforward without the need for resizing.
